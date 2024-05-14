@@ -10,10 +10,10 @@ function App() {
   const handlePrediction = async (imageData) => {
     try {
       // Envoyer les données d'image à l'API Flask pour la prédiction
-      const response = await axios.post('http://localhost:5000/predict', {
+      const response = await axios.post('http://127.0.0.1:5000/predict', {
         image: imageData,
       });
-
+  
       // Mettre à jour l'état de la prédiction avec la valeur reçue de l'API Flask
       setPrediction(response.data.predicted_class);
     } catch (error) {
