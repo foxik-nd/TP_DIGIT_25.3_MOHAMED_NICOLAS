@@ -5,10 +5,11 @@ Réalisé par Mohamed MAHMOUR et Nicolas DESFORGES
 
 # Pour commencer le projet
 
-1-Git clone le projet
-2-Il y a un dossier "notebook" qui comporte toute la première partie du TP
-3-Pour lancer le server faire ```python server.py```
-4-Pour lancer le front-end faite ```cd digit-webapp ``` puis ```npm i``` et ```npm start```
+Faire:
+	1-Git clone le projet
+	2-Il y a un dossier "notebook" qui comporte toute la première partie du TP
+	3-Pour lancer le server faire ```python server.py```
+	4-Pour lancer le front-end faite ```cd digit-webapp ``` puis ```npm i``` et ```npm start```
 
 # A noter
 
